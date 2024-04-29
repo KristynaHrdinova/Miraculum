@@ -1,0 +1,12 @@
+html{
+    background-color: black;
+}
+
+#alert{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    color:grey;
+}
