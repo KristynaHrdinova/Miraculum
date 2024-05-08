@@ -1,0 +1,62 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Raleway');
+@import
+url('https://fonts.googleapis.com/css2?family=Lato');
+
+body, html{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(108, 196, 223, 0.945);
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+
+    
+    
+}
+
+.dropdown{
+    font-family: 'Raleway', sans-serif; 
+    border-color: black;
+    border-style: dashed;
+    width: 30%;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+    
+    
+    
+    
+}
+.dropbtn{
+ 
+    font-size: 2rem;
+    cursor: pointer;
+    border-style: dashed;
+    border-radius: 25%;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(81, 191, 224, 0.945);
+    
+    
+    
+    
+    
+    
+}
+.dropcont{
+    display:none;
+    
+}
+.dropdown:hover .dropcont {
+    display: block;
+    
+    
+     
+    
+    
+    
+  }
+  .dropdown:hover .dropbtn {
+    font-size: 3rem;
+    
+  }
