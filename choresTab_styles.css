@@ -1,0 +1,82 @@
+
+
+html{background-color: rgb(250, 250, 184);}
+body{
+    margin:0;
+    font-family: "Montserrat";
+    color: rgba(37, 37, 37, 0.882);
+}
+ul{
+    list-style-type: none;
+    
+}
+.users {
+    background-color: rgba(144, 149, 153, 0.232);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.users ul{
+    background-color: rgb(250, 250, 184); 
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.users li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(97, 100, 103, 0.232);
+}
+
+table{ 
+    display: inline-block;
+    
+    
+   
+}
+
+.visualization li{
+    border-style: solid solid none solid;
+    border-color: rgba(37, 37, 37, 0.882);
+    display: block;
+    padding:10px;
+    
+}
+
+.visualization li:last-child{
+    border-style: solid;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tab table td {
+    background-color: rgb(20, 151, 158);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.tab2 table td {
+    background-color: rgb(199, 92, 15);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.tab{
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.tab2 {
+    margin-left: 40px;
+    display: inline-block;
+}
